@@ -1,0 +1,63 @@
+.pie {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.pie__logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+}
+.pie__logo-nombre{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2rem;
+}
+.pie__logo-productos{
+    color: brown;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-shadow: 0 0 15px aliceblue;
+}
+.contacto{
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contacto__nombre, .contacto__mensaje {
+    padding: 15px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(29, 28, 28);
+    color: aliceblue;
+    outline-style: none;
+}
+
+.copy {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* background-color: #222; */
+    color: #ffd; 
+}
+.copy p {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 30px; 
+}
+.copy p a {
+    display: flex;
+    align-items: center;
+    color: #ffd;
+    padding: 5px; 
+}
+.copy p img {
+    width: 40px;
+    padding: inherit;
+    border-radius: 50px; 
+}

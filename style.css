@@ -1,0 +1,16 @@
+html{
+    color: aliceblue;
+    background-color: black;
+    font-family: 'Marcellus', serif;
+    --colorBoton: rgb(19, 105, 180);
+}
+
+.container { 
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.galery{
+    display: flex;
+    flex-direction: column;
+}

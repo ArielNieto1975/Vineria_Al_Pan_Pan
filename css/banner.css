@@ -1,0 +1,29 @@
+.banner {
+    background-image: url(../assets/banner1.webp);
+    width: 100vw;
+    height: 30vw;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-size: 100vw;
+    position: relative;
+}
+.banner__titulo{
+    font-style: italic;
+    font-size: 5vw;
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    transform: translate(0, -50%);
+    margin: 5vw;
+}
+.banner__consultar{
+    position: absolute;
+    bottom: 0;
+    margin: 10px 5vw;
+    background-color: var(--colorBoton);
+    color: aliceblue;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
