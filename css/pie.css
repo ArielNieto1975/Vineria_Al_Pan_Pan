@@ -7,7 +7,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin-left: 15px; */
 }
 .pie__logo-nombre{
     font-family: 'Kaushan Script', cursive;
@@ -102,4 +101,16 @@
     width: 40px;
     padding: inherit;
     border-radius: 50px; 
+}
+
+@media screen and (min-width: 768px){
+    .pie__logo-nombre {
+        font-size: 2.5rem;
+    }
+    .pie__logo-productos {
+        font-size: 1.8rem;
+    }
+    .contacto__titulo {
+        font-size: 1.8rem;
+    }
 }
