@@ -25,9 +25,6 @@
 }
 .gallery__item-boton{
     padding: 5px;
-    background-color: var(--colorBoton);
-    color: aliceblue;
-    border-radius: 5px;
     width: 90%;
 }
 .gallery__titulo{

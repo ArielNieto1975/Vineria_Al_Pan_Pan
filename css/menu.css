@@ -26,12 +26,9 @@
     justify-content: space-between;
 }
 .Top__accesos-login{
-    background-color: var(--colorBoton);
-    color: aliceblue;
     font-size: 1.1rem;
     font-weight: bold;
     padding: 5px 30px;
-    border-radius: 5px;
 }
 .top__lupa{
     width: 30px;

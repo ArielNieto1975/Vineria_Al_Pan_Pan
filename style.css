@@ -4,6 +4,19 @@ html{
     font-family: 'Marcellus', serif;
     --colorBoton: rgb(19, 105, 180);
 }
+button{
+    border: none;
+    background-color: var(--colorBoton);
+    border-radius: 3px;
+    transition: all .3s;
+}
+button:hover{
+    transform: scale(.9);
+}
+.boton_acc{
+    text-decoration: none;
+    color: aliceblue;
+}
 
 .container { 
     width: 90vw;

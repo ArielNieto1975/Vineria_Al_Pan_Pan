@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 15px;
+    /* margin-left: 15px; */
 }
 .pie__logo-nombre{
     font-family: 'Kaushan Script', cursive;
@@ -21,6 +21,7 @@
 }
 .contacto{
     width: 90%;
+    max-width: 500px;
     margin: 30px auto;
     display: flex;
     flex-direction: column;
@@ -33,6 +34,47 @@
     background-color: rgb(29, 28, 28);
     color: aliceblue;
     outline-style: none;
+    width: 90%;
+}
+
+.contacto__nombre:focus, .contacto__mensaje:focus{
+    border-bottom: 1px solid green;
+}
+
+
+.input{
+    position: relative;
+}
+
+.contacto__nombre:focus + .contacto__nombre-label,
+.contacto__nombre:not(:placeholder-shown) + .contacto__nombre-label{
+    transform: translate(-12px) scale(.8);
+    transform-origin: left top;
+}
+.contacto__mensaje:focus + .contacto__mensaje-label,
+.contacto__mensaje:not(:placeholder-shown) + .contacto__mensaje-label{
+    transform: translate(-12px) scale(.8);
+    transform-origin: left top;
+}
+.contacto__nombre-label, .contacto__mensaje-label{
+    position: absolute;
+    padding-top: 3px;
+    top: 0;
+    left: 20px;
+    transform: translateY(12px);
+    transition: transform .5s;
+    cursor: pointer;
+    color:dimgrey;
+}
+.submit{
+    padding: 10px;
+    background-color: var(--colorBoton);
+    color: aliceblue;
+    border-radius: 5px;
+    width: 50%;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
 }
 
 .copy {
@@ -48,7 +90,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin: 5px 30px; 
+    /* margin: 5px 30px;  */
 }
 .copy p a {
     display: flex;
