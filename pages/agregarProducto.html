@@ -19,24 +19,37 @@
             <h2 class="top__logo-productos">WINES</h2>          
         </div>
         <div class="top__accesos">
+            <button class="Top__accesos-administra menuAdministra"><a href="#" class="boton_adm">Menu Administrador</a></button>
             <img src="../assets/lupa.svg" alt="" class="top__lupa">
             <input type="text" placeholder="¿Que deseas buscar?" class="top__accesos-buscar"/>
                         
         </div>        
     </header>
     <main>
-        <form action="" class="contacto">
-            <h3 class="contacto__inicio">Iniciar Seción</h3>
+        <form action="" class="contacto administra">
+            <h3 class="contacto__inicio">Agregar Nuevo Producto</h3>
             <div class="input input__login">
-                <input type="email" id="email" class="contacto__nombre" placeholder=" " >
-                <label for="email" class="contacto__nombre-label">Escriba su Correo Electrónico</label>
+                <input type="text" id="url" class="contacto__nombre" placeholder=" " >
+                <label for="url" class="contacto__nombre-label">URL de la imagen</label>
             </div>
             <div class="input input__login">
-                <input type="password" id="Nombre" class="contacto__nombre" placeholder=" " >
-                <label for="Nombre" class="contacto__nombre-label">Escriba su Contraseña</label>
+                <input type="text" id="categoria" class="contacto__nombre" placeholder=" " >
+                <label for="categoria" class="contacto__nombre-label">Categoría</label>
             </div>
-            <button class="login__entrar"><a href="./agregarProducto.html" class="boton_acc">Entrar</a></button>
-            <!-- <input type="submit" class="submit" value="Entrar" > -->
+            <div class="input input__login">
+                <input type="text" id="nombreProducto" class="contacto__nombre" placeholder=" " >
+                <label for="nombreProducto" class="contacto__nombre-label">Nombre del producto</label>
+            </div>
+            <div class="input input__login">
+                <input type="text" id="precioProducto" class="contacto__nombre" placeholder=" " >
+                <label for="precioProducto" class="contacto__nombre-label">Precio del Producto</label>
+            </div>
+            <div class="input input__login">
+                <textarea name="" id="descricion" cols="30" rows="5" class="contacto__mensaje" placeholder=" "></textarea>
+                <label for="descricion" class="contacto__mensaje-label">Descripción del Producto</label>
+            </div>
+            
+            <button class="login__entrar"><a href="" class="boton_acc">Agregar Producto</a></button>
             
         </form>
         

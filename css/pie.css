@@ -65,6 +65,15 @@
     cursor: pointer;
     color:dimgrey;
 }
+.administra{
+    width: 100%;
+    max-width: 750px;
+}
+
+.descripcion{
+    width: 100%;
+    max-width: 750px;
+}
 .submit{
     padding: 10px;
     background-color: var(--colorBoton);
