@@ -5,7 +5,7 @@
     justify-content: space-evenly;
 }
 .gallery__item{
-    width: 12vw;
+    /* width: 12vw; */
     min-width: 130px;
     height: 180px;
     padding: 15px 0;
@@ -15,10 +15,23 @@
     align-items: center;
     gap: 10px;
     margin-top: 30px;
+    position: relative;
 }
 .gallery__item-img{
     width: 130px;
     height: 130px;
+}
+.gallery__item-editar{
+    width: 18px;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+.gallery__item-eliminar{
+    width: 18px;
+    position: absolute;
+    top: 10px;
+    right: 5px;
 }
 .gallery__item-precio{
     font-family: Georgia, 'Times New Roman', Times, serif;

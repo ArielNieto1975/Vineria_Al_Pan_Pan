@@ -52,6 +52,12 @@
     border: none;
     outline: none;
 }
+.agregarProducto{
+    padding: 10px 40px;
+    display: block;
+    margin: 0 auto;
+    
+ }
 
 @media screen and (min-width: 768px){
    .top__lupa{
@@ -74,6 +80,19 @@
     font-size: 1.2rem;
    }
 
+   .menuAdministra{
+    padding: 5px 25px;
+}
+
+
+}
+@media screen and (min-width: 768px){
+ /* .agregarProducto{
+    padding: 10px 40px;
+    display: block;
+    margin: 0 auto;
+    
+ } */
 }
 @media screen and (min-width: 1024px){
     .top__logo-nombre{
