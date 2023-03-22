@@ -14,10 +14,10 @@
 </head>
 <body>
     <header class="container top">
-        <div class="top__logo">
+        <a class="top__logo" href="../index.html">
             <h1 class="top__logo-nombre">Al Pan Pan</h1>  
             <h2 class="top__logo-productos">WINES</h2>          
-        </div>
+        </a>
         <div class="top__accesos">
             <img src="../assets/lupa.svg" alt="" class="top__lupa">
             <input type="text" placeholder="¿Que deseas buscar?" class="top__accesos-buscar"/>
@@ -50,15 +50,15 @@
         <form action="" class="contacto">
             <h3 class="contacto__titulo">Hacenos tu consulta</h3>
             <div class="input">
-                <input type="text" id="Nombre" class="contacto__nombre" placeholder=" " >
+                <input type="text" id="Nombre" class="contacto__nombre" placeholder=" " required>
                 <label for="Nombre" class="contacto__nombre-label">Nombre</label>
             </div>
             <div class="input">
-                <input type="email" id="email" class="contacto__nombre" placeholder=" " >
+                <input type="email" id="email" class="contacto__nombre" placeholder=" " required>
                 <label for="email" class="contacto__nombre-label">Email</label>
             </div>
             <div class="input">
-                <textarea name="" id="Text" cols="30" rows="5" class="contacto__mensaje" placeholder=" "></textarea>
+                <textarea name="" id="Text" cols="30" rows="5" class="contacto__mensaje" placeholder=" " required></textarea>
                 <label for="Text" class="contacto__mensaje-label">Escriba su mensaje...</label>
             </div>
             <input type="submit" class="submit">
