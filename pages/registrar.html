@@ -25,18 +25,18 @@
         </div>        
     </header>
     <main>
-        <form action="" class="contacto" data-login>
-            <h3 class="contacto__inicio">Iniciar Seción</h3>
+        <form action="" class="contacto">
+            <h3 class="contacto__inicio">Registro de Usuario</h3>
             <div class="input input__login">
-                <input type="user" id="user" class="contacto__nombre" placeholder=" " data-usuario>
-                <label for="user" class="contacto__nombre-label">Escriba su Nombre de Usuario</label>
+                <input type="email" id="correo" class="contacto__nombre" placeholder=" " data-user required >
+                <label for="correo" class="contacto__nombre-label">Escriba su Correo Electrónico</label>
             </div>
             <div class="input input__login">
-                <input type="password" id="password" class="contacto__nombre" placeholder=" " data-pass>
-                <label for="password" class="contacto__nombre-label">Escriba su Contraseña</label>
+                <input type="password" id="pass" class="contacto__nombre" placeholder=" " data-pw required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ *+-.:,;#%&°]).{6,12}$" title="Ingrese de 6 a 12 cracteres">
+                <label for="pass" class="contacto__nombre-label">Escriba su Contraseña</label>
             </div>
-            <button type="submit" class="login__entrar" data-btn >Entrar</button>
-            <a href="./registrar.html" class="registrar">Registrar</a>
+            <button class="login__entrar" data-boton>Registrar</button>
+            <!-- <input type="submit" class="submit" value="Entrar" > -->
         </form>
         
     </main>
@@ -49,19 +49,16 @@
         <form action="" class="contacto">
             <h3 class="contacto__titulo">Hacenos tu consulta</h3>
             <div class="input">
-                <input type="text" id="Nombre" class="contacto__nombre" placeholder=" " required data-tipo="nombre" pattern="^(?!.*[0-9]).{4,50}$">
+                <input type="text" id="Nombre" class="contacto__nombre" placeholder=" " required>
                 <label for="Nombre" class="contacto__nombre-label">Nombre</label>
-                <span class="input__message-error"></span>
             </div>
             <div class="input">
-                <input type="email" id="email" class="contacto__nombre" placeholder=" " required data-tipo="email">
+                <input type="email" id="email" class="contacto__nombre" placeholder=" " required autocomplete="off">
                 <label for="email" class="contacto__nombre-label">Email</label>
-                <span class="input__message-error"></span>
             </div>
             <div class="input">
-                <textarea name="" id="Text" cols="30" rows="5" class="contacto__mensaje" placeholder=" " required data-tipo="mensaje"></textarea>
+                <textarea name="" id="Text" cols="30" rows="5" class="contacto__mensaje" placeholder=" " required></textarea>
                 <label for="Text" class="contacto__mensaje-label">Escriba su mensaje...</label>
-                <span class="text__message-error"></span>
             </div>
             <input type="submit" class="submit">
             
@@ -71,8 +68,6 @@
         </div>
 
     </footer>
-    <script type="module" src="../js/app.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script type="module" src="../controlers/loginAdmin-controlers.js"></script>
+    <!-- <script type="module" src="../servicios/usuario.js"></script> -->
 </body>
 </html>

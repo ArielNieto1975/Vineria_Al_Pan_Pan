@@ -15,7 +15,7 @@ const crearNuevoProducto = (imageURL,name,price,id)=> {
     const elimina = item.querySelector(".gallery__item-eliminar");
     elimina.addEventListener("click", ()=>{
         const id = elimina.id;
-        productos.eliminarCliente(id).then(respuesta => {
+        productos.eliminarProducto(id).then(respuesta => {
             console.log(respuesta)
         }).catch((error)=>[
             alert("Ocurrio un Error")]);

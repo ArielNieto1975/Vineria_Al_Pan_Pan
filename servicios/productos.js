@@ -1,4 +1,3 @@
-
 const listaProductos =()=> fetch("http://localhost:3000/producto").then((respuesta) => respuesta.json());
 const crearProductos =(imageURL,categoria,name,price,descripcion)=> {
     return fetch("http://localhost:3000/producto", {
@@ -10,7 +9,7 @@ const crearProductos =(imageURL,categoria,name,price,descripcion)=> {
     });
 };
 
-const eliminarCliente = (id)=>{
+const eliminarProducto = (id)=>{
     return fetch(`http://localhost:3000/producto/${id}`, {
         method: "DELETE",
 });
@@ -33,7 +32,7 @@ const actualizarProducto = (imageURL, categoria, name, price, descripcion, id) =
 export const productos = {
     listaProductos,
     crearProductos,
-    eliminarCliente,
+    eliminarProducto,
     detalleProducto,
     actualizarProducto
 };

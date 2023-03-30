@@ -4,6 +4,21 @@
     gap: 10px;
     justify-content: space-evenly;
 }
+.gallery__bodegas{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 50px;
+    gap: 50px;
+    width: 50vw;
+}
+.gallery__bodegas-item, .gallery__bodegas-item a img{
+    width: 100%;
+}
+.gallery__bodegas-item a img:hover{
+    box-shadow: 0 0 30px green;
+}
+
 .gallery__item{
     /* width: 12vw; */
     width: 130px;    
@@ -24,14 +39,14 @@
 .gallery__item-editar{
     width: 18px;
     position: absolute;
-    top: 10px;
+    top: 5px;
     right: 30px;
     cursor: pointer;
 }
 .gallery__item-eliminar{
     width: 18px;
     position: absolute;
-    top: 10px;
+    top: 5px;
     right: 5px;
     cursor: pointer;
 }

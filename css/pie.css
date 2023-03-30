@@ -34,6 +34,8 @@
     color: aliceblue;
     outline-style: none;
     width: 90%;
+    font-size: 1rem;
+    font-weight: normal;
 }
 
 .contacto__nombre:focus, .contacto__mensaje:focus{
@@ -59,12 +61,35 @@
     position: absolute;
     padding-top: 3px;
     top: 0;
-    left: 20px;
+    left: 25px;
     transform: translateY(12px);
     transition: transform .5s;
     cursor: pointer;
     color:dimgrey;
 }
+
+.input__message-error, .text__message-error{
+    display: none;
+}
+.input__container-invalid {
+    margin-bottom: 0.5rem;
+  }  
+  .input__container-invalid, .input__message-error {
+    color: yellow;
+    display: block;
+    margin-top: 0.5rem;
+  }
+  
+  .text__container-invalid {
+    margin-bottom: 0.5rem;
+  }
+  
+  .text__container-invalid, .text__message-error {
+    display: block;
+    color: yellow;
+    margin-top: 0.5rem;
+  }
+
 .administra{
     width: 100%;
     max-width: 750px;
