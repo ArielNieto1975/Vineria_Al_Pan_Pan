@@ -16,6 +16,10 @@ input.addEventListener('input', () => {
     prods.forEach(product => {
       product.style.display = 'none';
     });
+  }else {
+	prods.forEach(product => {
+		product.style.display = 'flex';
+	  });
   }
 });
 
