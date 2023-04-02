@@ -11,7 +11,7 @@ fetch('db.json')
             <div class="gallery__item">
                 <img src="${producto.imageURL}" alt="${producto.name}" class="gallery__item-img">
                 <h2 class="gallery__item-name">${producto.name}</h2>
-                <p>${producto.descripcion}</p>
+                
                 <p class="gallery__item-precio">Precio: $${producto.price}</p>
                 <button class="gallery__item-boton"><a href="" class="boton_acc">Ver Producto</a></button>
             </div>
