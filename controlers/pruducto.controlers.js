@@ -24,7 +24,6 @@ const crearNuevoProducto = (imageURL,name,price,id)=> {
     return item
 };
 const producto = document.querySelector("[data-producto]");
-// const catenaZ = document.querySelector("[data-catena]");
 
 productos.listaProductos().then((data)=>{
     data.forEach(({imageURL,name,price,id}) => {

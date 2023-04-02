@@ -6,24 +6,23 @@ const obtenerInformacion = async ()=>{
     const id = url.searchParams.get("id");
 
 if(id == null) {
-    // alert("Ocurrio un Error")
     window.location.href = "./menuAdministrador.html"
 }
 
     const ruta = document.querySelector("[data-url]");
-    // const categoria = document.querySelector("[data-categoria]");
+    const categoria = document.querySelector("[data-categoria]");
     const nombre = document.querySelector("[data-nombre]");
     const precio = document.querySelector("[data-precio]");
-    // const descripcion = document.querySelector("[data-descripcion]");
+    const descripcion = document.querySelector("[data-descripcion]");
 
     try {
         const producto = await productos.detalleProducto(id) 
         if(producto.name && producto.imageURL && producto.price)    {
             ruta.value=producto.imageURL;
-            // categoria.value=producto.name;
+            categoria.value=producto.name;
             nombre.value=producto.name; 
             precio.value=producto.price;
-            // descripcion.value=producto.nombre; 
+            descripcion.value=producto.nombre; 
              
         }else{
             throw new Error();

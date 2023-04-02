@@ -2,43 +2,55 @@
   "producto": [
     {
       "name": "Malbec 750ml",
+      "categoria": "Nieto Senetiner",
       "imageURL": "../assets/Nieto-Malbec.jpg",
       "price": "1600,00",
+      "descripcion": "",
       "id": 111111
     },
     {
       "name": "Chardonay",
+      "categoria": "Nieto Senetiner",
       "imageURL": "../assets/nieto-chardonay.jpg",
       "price": "1830,00",
+      "descripcion": "",
       "id": 111112
     },
     {
       "name": "Cabernet",
+      "categoria": "Nieto Senetiner",
       "imageURL": "../assets/nieto-cabernet.jpg",
       "price": "1910,00",
+      "descripcion": "",
       "id": 111113
     },
     {
       "name": "Bonarda",
+      "categoria": "Nieto Senetiner",
       "imageURL": "../assets/nieto-bonarda.jpg",
       "price": "1386,00",
+      "descripcion": "",
       "id": 111114
     },
     {
       "name": "Blend Collection",
+      "categoria": "Nieto Senetiner",
       "imageURL": "../assets/nieto-blendCol.jpeg",
       "price": "2130,00",
+      "descripcion": "",
       "id": 111115
     },
     {
       "name": "Brut Nature",
+      "categoria": "Nieto Senetiner",
       "imageURL": "../assets/nieto_brut.jpg",
       "price": "2150,00",
+      "descripcion": "",
       "id": 111116
     },
     {
       "imageURL": "../assets/catena_malbec.jpg",
-      "categoria": "",
+      "categoria": "Catena Zapata",
       "name": "Malbec 750cc",
       "price": "3850",
       "descripcion": "",
@@ -46,7 +58,7 @@
     },
     {
       "imageURL": "../assets/catena_cabernet.jpg",
-      "categoria": "",
+      "categoria": "Catena Zapata",
       "name": "Cabernet",
       "price": "4190,00",
       "descripcion": "",
@@ -54,62 +66,82 @@
     },
     {
       "name": "Chardonnay",
+      "categoria": "Catena Zapata",
       "imageURL": "../assets/catena_chardonnay.webp",
       "price": "3400,00",
+      "descripcion": "",
       "id": 211113
     },
     {
       "name": "Blend",
+      "categoria": "Catena Zapata",
       "imageURL": "../assets/catena_blend.jpg",
       "price": "3100,00",
+      "descripcion": "",
       "id": 211114
     },
     {
-      "name": "Syrah",
       "imageURL": "../assets/catena_Syrah.jpg",
+      "categoria": "Catena Zapata",
+      "name": "Syrah",
       "price": "2500,00",
+      "descripcion": "",
       "id": 211115
     },
     {
-      "name": "Nature",
       "imageURL": "../assets/catena_nature.jpg",
-      "price": "5200,00",
+      "categoria": "Catena Zapata",
+      "name": "Nature",
+      "price": "5250,00",
+      "descripcion": "",
       "id": 211116
     },
     {
       "name": "Malbec",
+      "categoria": "Luigi Bosca",
       "imageURL": "../assets/luigi-malbec.jpg",
       "price": "2200,00",
+      "descripcion": "",
       "id": 311111
     },
     {
       "name": "Chardonnay",
+      "categoria": "Luigi Bosca",
       "imageURL": "../assets/Luigi_chardonnay.jpg",
       "price": "3200,00",
+      "descripcion": "",
       "id": 311112
     },
     {
       "name": "Cabernet",
+      "categoria": "Luigi Bosca",
       "imageURL": "../assets/luigi_cabernet.webp",
       "price": "2800,00",
+      "descripcion": "",
       "id": 311113
     },
     {
       "name": "Red Blend",
+      "categoria": "Luigi Bosca",
       "imageURL": "../assets/luige_blend.jpg",
       "price": "3519,00",
+      "descripcion": "",
       "id": 311114
     },
     {
       "name": "Rosé",
+      "categoria": "Luigi Bosca",
       "imageURL": "../assets/luigi_rose.jpeg",
       "price": "4200,00",
+      "descripcion": "",
       "id": 311115
     },
     {
-      "name": "Brut Nature",
       "imageURL": "../assets/luigi_brut.webp",
-      "price": "3500,00",
+      "categoria": "Luigi Bosca",
+      "name": "Brut Nature",
+      "price": "3600,00",
+      "descripcion": "undefined",
       "id": 311116
     },
     {

@@ -4,7 +4,7 @@
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>AL PAN PAN - Wines</title>
+    <title>AL PAN PAN - Bodega Catena Zapata</title>
     <link rel="stylesheet" href="./css/reset.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Marcellus&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css"/>
@@ -20,9 +20,9 @@
             <h2 class="top__logo-productos">WINES</h2>          
         </a>
         <div class="top__accesos">
-            <button class="Top__accesos-login"  onclick= "window.location.href=`/pages/login.html`"><a href="./pages/login.html" class="boton_acc">Login</a></button>
+            <button class="Top__accesos-login"  onclick= "window.location.href=`./pages/login.html`"><a href="./pages/login.html" class="boton_acc">Login</a></button>
             <img src="./assets/lupa.svg" alt="" class="top__lupa">
-            <input type="text" placeholder="¿Que deseas buscar?" class="top__accesos-buscar" data-buscar/>
+            <input type="text" placeholder="¿Que deseas buscar?" class="top__accesos-buscar"/>
                         
         </div>
         
@@ -32,29 +32,14 @@
         <button class="banner__consultar"><a href="" class="boton_acc">Consultar</a></button>
     </div>
     <main class="container">
-
-        <div  class="galery">
-            <div id="products" class="gallery__container" data-producto>
+        <section class="galery">
+            <h2 class="gallery__titulo">Bodega Catena Zapata</h2>
+            <div class="gallery__container" data-producto>
                 
             </div>
-        </div>
-
-        <section class="galery">
-            <h2 class="gallery__titulo">Bodegas Seleccionadas</h2>
-            <ul class="gallery__bodegas">
-                <li class="gallery__bodegas-item">
-                    <a href="./nieto.html"><img src="./assets/bodegas/bns.jpg" alt=""></a>
-                </li>
-                <li class="gallery__bodegas-item">
-                    <a href="./catena.html"><img src="./assets/bodegas/bcz.jpg" alt=""></a>
-                </li>
-                <li class="gallery__bodegas-item">
-                    <a href="./luigi.html"><img src="./assets/bodegas/blb.jpg" alt=""></a>
-                </li>
-                
-            </ul>
         </section>
 
+        
     </main>
     <footer class="container pie">
         <div class="pie__logo">
@@ -86,7 +71,7 @@
         </div>
 
     </footer>
-    <script type="module" src="./servicios/buscar.js"></script>
  <script type="module" src="./js/app.js"></script>
+ <script type="module" src="./controlers/catena.controlers.js"></script>
 </body>
 </html>

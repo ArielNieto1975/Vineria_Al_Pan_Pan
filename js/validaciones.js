@@ -74,12 +74,5 @@ function mostrarError (tipoInput, input) {
     textarea.setCustomValidity(msgError)
   }
   
-//   function validarTextareaDescripcion (textarea) {
-//     const textLength = textarea.parentElement.querySelector('.textarea__input').value.length
-//     let msgError = ''
-//     if (textLength > 150) {
-//       msgError = 'No debe superar los 150 caracteres'
-//     }
-//     textarea.setCustomValidity(msgError)
-//   }
+
   
