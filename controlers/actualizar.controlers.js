@@ -19,7 +19,7 @@ if(id == null) {
         const producto = await productos.detalleProducto(id) 
         if(producto.name && producto.imageURL && producto.price)    {
             ruta.value=producto.imageURL;
-            categoria.value=producto.name;
+            categoria.value=producto.categoria;
             nombre.value=producto.name; 
             precio.value=producto.price;
             descripcion.value=producto.nombre; 

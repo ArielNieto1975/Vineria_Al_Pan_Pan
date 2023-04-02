@@ -3,9 +3,7 @@ const listaProductos =()=> fetch("http://localhost:3000/producto").then((respues
 listaProductos()
 .then((data)=> {
     const datos= data
-    console.log(datos)
     const products = datos
-console.log(products)
 
 // para que desaparenzacan los productos filtrados al borrar el input
 const input = document.querySelector("[data-buscar]");

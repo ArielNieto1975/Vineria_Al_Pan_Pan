@@ -1,19 +1,19 @@
 {
   "producto": [
     {
-      "name": "Malbec 750ml",
-      "categoria": "Nieto Senetiner",
       "imageURL": "../assets/Nieto-Malbec.jpg",
+      "categoria": "Nieto Senetiner",
+      "name": "Malbec 750cc",
       "price": "1600,00",
-      "descripcion": "",
+      "descripcion": "undefined",
       "id": 111111
     },
     {
-      "name": "Chardonay",
-      "categoria": "Nieto Senetiner",
       "imageURL": "../assets/nieto-chardonay.jpg",
+      "categoria": "Nieto Senetiner",
+      "name": "Chardonay",
       "price": "1830,00",
-      "descripcion": "",
+      "descripcion": "undefined",
       "id": 111112
     },
     {
