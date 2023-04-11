@@ -40,7 +40,6 @@ function mostrarError (tipoInput, input) {
   
   const validadores = {
     mensaje: (textarea) => validarTextarea(textarea),
-    // descripcion: (textarea) => validarTextareaDescripcion(textarea)
   }
   
   const tipoError = [
